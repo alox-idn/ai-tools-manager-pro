@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { open } from "@tauri-apps/plugin-shell";
 import { toolsCatalog, ToolItem } from "./data/tools";
-import { Download, ExternalLink, Cpu, Search, Sparkles } from "lucide-react";
+import { Download, ExternalLink, Cpu, Search } from "lucide-react";
 
 export default function App() {
   const [filter, setFilter] = useState<string>("all");
